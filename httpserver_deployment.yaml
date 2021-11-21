@@ -20,3 +20,5 @@ spec:
         imagePullPolicy: Never
         ports:
         - containerPort: 5000
+      nodeSelector:
+        node: master
